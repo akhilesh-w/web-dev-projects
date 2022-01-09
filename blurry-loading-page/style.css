@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -16,18 +15,18 @@ body {
 }
 
 .bg {
-    background: url('https://images.unsplash.com/photo-1641594502226-55d38fd25b95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80') no-repeat center center/cover;
-    position: absolute;
-    top: -30px;
-    left: -30px;
-    width: calc(100vw + 60px);
-    height: calc(100vh + 60px);
-    z-index: -1;
-    filter: blur(0px);
+  background: url("https://images.unsplash.com/photo-1548783346-61db7a22e9b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80")
+    no-repeat center center/cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);
 }
 
 .loading-text {
-    font-size: 50px;
-    color: #fff;
-
+  font-size: 50px;
+  color: #fff;
 }
