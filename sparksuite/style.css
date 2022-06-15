@@ -1,0 +1,59 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin: 10px 30px;
+}
+
+
+/* Upper Part */
+
+.upper-part{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.left{
+    flex: 50%;
+}
+.right{
+    text-align: end;
+}
+
+.logo{
+    font-size: 60px;
+    margin-bottom: 45px;
+    letter-spacing: 10px;
+}
+.invoice{
+    margin-bottom: 45px;
+}
+
+.payment{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading{
+    background-color: #e0e0e0;
+    font-weight: bold;
+}
+.total{
+    font-weight: bold;
+}
+
+
+
+
+/* Table */
+/* table{
+    text-align: center;
+    width: 100%;
+}
+
+th{
+    background-color: #696969;
+} */
+
+
