@@ -16,9 +16,13 @@
 
 .left{
     flex: 50%;
+    margin-left: 0px;
+    font-weight: 600;
 }
 .right{
     text-align: end;
+    margin-right: 0px;
+    font-weight: 600;
 }
 
 .logo{
@@ -42,4 +46,3 @@
 .total{
     font-weight: bold;
 }
-
