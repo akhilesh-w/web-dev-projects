@@ -46,3 +46,39 @@
 .total{
     font-weight: bold;
 }
+
+@media only screen and (max-width: 975px) {
+    *{
+        margin: 5px 10px;
+    }
+    .upper-part{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .right{
+        width: 45%;
+
+    }
+    .left{
+        width: 45%;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .upper-part{
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+    }
+    .right{
+        text-align: center;
+
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .left{
+        margin-left: 0;
+        padding-left: 0;
+    }
+}
